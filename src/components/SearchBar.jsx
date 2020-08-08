@@ -1,9 +1,10 @@
 import React from 'react'
 
-const SearchBar = () => {
+const SearchBar = (props) => {
+
   return (
     <div className="search-bar">
-      <input />
+      <input onChange={props.handleChange} />
     </div>
   )
 }
