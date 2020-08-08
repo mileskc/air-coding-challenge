@@ -21,6 +21,8 @@ I decided to use Hooks for state management rather than a class component for re
 
 I deployed to Netlify early on to insure there weren't last minute issues - I chose Netlify this time for ease of deployment as I pushed up changes. 
 
+I typically use branching whenever programming, but decided to work directly in master for time - I made sure to commit and push whenever I completed a portion that I didn't want to lose.
+
 I primarily used flexbox for styling.
 
 ## Choices
