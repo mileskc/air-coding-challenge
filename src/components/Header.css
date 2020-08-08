@@ -4,6 +4,7 @@
   border-top: solid #0addd7 5px;
   box-shadow: inset 0px -1px 0px #EFEFEF;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .air-logo {

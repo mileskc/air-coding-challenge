@@ -8,7 +8,8 @@
 .search-input {
   line-height: 150%;
   height: 40px;
-  width: 590px;
+  width: 70%;
+  max-width: 590px;
   font-size: 14px;
   color: #808080;
   font-family: Helvetica, Arial, sans-serif;

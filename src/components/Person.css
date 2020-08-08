@@ -1,6 +1,7 @@
 .person {
   display: flex;
-  width: 590px;
+  width: 70%;
+  max-width: 590px;
   height: 96px;
   justify-content: flex-start;
   margin-bottom: 24px;
@@ -40,4 +41,24 @@
   color: #666666;
   letter-spacing: -.015em;
   line-height: 150%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .person-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .person-text {
+    padding: 0 0 0 10px;
+  }
+
+  .person-name {
+    font-size: 13px;
+  }
+
+  .person-desc {
+    font-size: 11px;
+  }
 }
