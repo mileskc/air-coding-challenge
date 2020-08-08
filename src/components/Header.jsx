@@ -3,9 +3,12 @@ import './Header.css'
 
 
 const Header = () => {
+  const handleClick = () => {
+    window.open("http://air.inc", "_blank")
+  }
   return (
     <div className="header">
-      <img className="air-logo" alt="air logo" src="/air-logo.svg" />
+      <img onClick={handleClick} className="air-logo" alt="air logo" src="/air-logo.svg" />
     </div>
   )
 }
