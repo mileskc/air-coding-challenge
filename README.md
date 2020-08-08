@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Person Finder
 
-## Available Scripts
+Hi Tyler! I had fun implementing this challenge. There's a lot more features I'd love to play around with if I had more time, but here's some documentation below on what I have so far.
 
-In the project directory, you can run:
+## Live Link
+https://katelyn-air-challenge.netlify.app/
 
-### `npm start`
+## Instructions
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To open locally, clone this repo and then run:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+`npm install`
 
-### `npm test`
+`npm start`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Process
 
-### `npm run build`
+I took a chunk of time at the start of this challenge to read over all the directions, consider the assets given, and map out my file structure. I decided to keep both components and style files in a components folder for sake of time and quick navigation (as well as immediate visibility). 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I decided to use Hooks for state management rather than a class component for readability and simplicity. 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+I deployed to Netlify early on to insure there weren't last minute issues - I chose Netlify this time for ease of deployment as I pushed up changes. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I primarily used flexbox for styling.
 
-### `npm run eject`
+## Choices
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Made the Air logo a link to the site (opens in a new tab)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I initially used autofocus for the search bar, but read in the success criteria for accessibility that it can be disorienting for vision-impaired users and can also be problematic for users with motor control disabilities.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+I thought about adding some animations but didn't want to impact site performance unnecessarily and also thought some could have similar impact to autofocus as described above.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I made the Person component a Lazy component while the data loads. I decided to do this for the individual Person component rather than the PersonList so that the user would be able to anticipate the list format that would appear on the page, rather than some amorphous mystery data.
 
-## Learn More
+## Features to add
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+With more time, I'd like to focus on some of the items in the check list I didn't have time to fully research and implement. I haven't worked with Typescript (though it's high on my list to learn!) so I decided not to invest the time to learn that during this challenge - I would want to dig into the docs and understand best practices before attempting to implement it on my own.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I would also add testing and try to further enhance the performance of the site.
 
-### Code Splitting
+There's always more to polish and tweak!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Thank you!

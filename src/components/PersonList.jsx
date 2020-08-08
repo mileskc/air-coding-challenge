@@ -1,5 +1,5 @@
-import React from 'react'
-import Person from './Person'
+import React, { Suspense } from 'react'
+const Person = React.lazy(() => import('./Person'))
 
 const PersonList = (props) => {
 
@@ -9,7 +9,9 @@ const PersonList = (props) => {
   return (
     <>
       {data.map((person, index) => (
-        <Person key={index} person={person} />
+        <Suspense fallback={<h1>Loading...</h1>}>
+          <Person key={index} person={person} />
+        </Suspense>
       ))}
     </>
   )
