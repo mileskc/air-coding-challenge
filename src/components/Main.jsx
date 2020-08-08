@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import PersonList from './PersonList'
 import SearchBar from './SearchBar'
 import Hero from './Hero'
+import './Main.css'
 import { data } from '../data.js'
 
 const Main = () => {
@@ -14,11 +15,16 @@ const Main = () => {
     console.log(event.target.value)
   }
   return (
-    <>
-      <SearchBar filteredResults={filteredResults} handleChange={handleChange} />
+    <div className="main">
       <Hero />
-      <PersonList data={data} filteredResults={filteredResults} />
-    </>
+      <SearchBar
+        filteredResults={filteredResults}
+        handleChange={handleChange} />
+      <PersonList
+        data={data}
+        filteredResults={filteredResults}
+      />
+    </div>
   )
 }
 

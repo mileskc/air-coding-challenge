@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 590px;
+  margin: 96px 0 43px 0;
+  line-height: 110%;
+}
+
+.title {
+  font-family: Georgia, serif;
+  color: #102261;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: .03em;
+}
+
+.sub-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}

@@ -1,5 +1,11 @@
 
-.header{
-height: 64px;
-border-top: solid #0addd7 2px;
+.header {
+  height: 64px;
+  border-top: solid #0addd7 5px;
+  box-shadow: inset 0px -1px 0px #EFEFEF;
+  box-sizing: border-box;
+}
+
+.air-logo {
+  margin: 20px 0px 20px 132px;
 }
